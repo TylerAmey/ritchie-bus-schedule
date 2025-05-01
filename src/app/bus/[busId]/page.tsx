@@ -120,6 +120,7 @@ export default async function Page(props: Props) {
       <div className="bg-border-background xs:gap-3 xs:rounded-3xl xs:p-3 flex w-(--sm-max-w) flex-row flex-wrap gap-2 rounded-[20px] p-2 md:max-w-(--breakpoint-lg)">
         <div className="bg-item-background flex w-full flex-row items-center justify-between rounded-xl p-1 pr-2 pl-3 md:p-3">
           <h2 className="xs:text-2xl m-0 text-lg font-bold">Select Stops</h2>
+          {/* Here is the issue */}
           <ClickableTooltip tipMessage="Click on the bus stop to view it's timetable below.">
             <IoMdInformationCircle size={32} className="scale-150 opacity-30" />
           </ClickableTooltip>

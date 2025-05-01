@@ -44,6 +44,7 @@ export default function ClickableTooltip({
             <Button
               variant="ghost"
               className=" aspect-square p-0 py-0 hover:bg-slate-300"
+              aria-label="Bus Stop Information"
             >
               {children}
             </Button>
